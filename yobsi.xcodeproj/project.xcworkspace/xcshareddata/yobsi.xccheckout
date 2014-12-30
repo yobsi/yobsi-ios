@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4E102D93-081F-405B-BF1D-6C1E2F358805</string>
+	<key>IDESourceControlProjectName</key>
+	<string>yobsi</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C9B377EC9E4E18857BB6702E34D4F14EB5153833</key>
+		<string>github.com:yobsi/yobsi-ios.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>yobsi.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C9B377EC9E4E18857BB6702E34D4F14EB5153833</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:yobsi/yobsi-ios.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C9B377EC9E4E18857BB6702E34D4F14EB5153833</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C9B377EC9E4E18857BB6702E34D4F14EB5153833</string>
+			<key>IDESourceControlWCCName</key>
+			<string>yobsi</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -13,6 +13,7 @@
 		0447F8D31A4A152500A0CC78 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0447F8D11A4A152500A0CC78 /* LaunchScreen.xib */; };
 		0447F8DF1A4A152500A0CC78 /* yobsiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0447F8DE1A4A152500A0CC78 /* yobsiTests.swift */; };
 		0489B9CA1A510A8300E9CB0E /* RequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489B9C91A510A8300E9CB0E /* RequestViewController.swift */; };
+		04FAC1851A522CFA00DA4114 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAC1841A522CFA00DA4114 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		0447F8DD1A4A152500A0CC78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0447F8DE1A4A152500A0CC78 /* yobsiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yobsiTests.swift; sourceTree = "<group>"; };
 		0489B9C91A510A8300E9CB0E /* RequestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestViewController.swift; sourceTree = "<group>"; };
+		04FAC1841A522CFA00DA4114 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		0447F8C51A4A152500A0CC78 /* yobsi */ = {
 			isa = PBXGroup;
 			children = (
+				04FAC1861A522D2000DA4114 /* Model */,
 				0489B9C81A51095400E9CB0E /* ViewControllers */,
 				0447F8C81A4A152500A0CC78 /* AppDelegate.swift */,
 				0447F8CC1A4A152500A0CC78 /* Main.storyboard */,
@@ -116,8 +119,16 @@
 			isa = PBXGroup;
 			children = (
 				0489B9C91A510A8300E9CB0E /* RequestViewController.swift */,
+				04FAC1841A522CFA00DA4114 /* MainViewController.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		04FAC1861A522D2000DA4114 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +231,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04FAC1851A522CFA00DA4114 /* MainViewController.swift in Sources */,
 				0447F8C91A4A152500A0CC78 /* AppDelegate.swift in Sources */,
 				0489B9CA1A510A8300E9CB0E /* RequestViewController.swift in Sources */,
 			);
