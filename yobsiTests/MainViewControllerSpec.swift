@@ -21,6 +21,10 @@ class MainViewControllerSpec: QuickSpec {
         vc.loadView()
       }
       
+      it("Should have a button") {
+      
+      }
+      
       
     }
     
