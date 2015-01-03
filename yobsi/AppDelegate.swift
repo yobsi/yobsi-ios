@@ -16,6 +16,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
   func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
     // Override point for customization after application launch.
+    
+    FBLoginView.self
+    FBProfilePictureView.self
+    
     return true
   }
 
@@ -41,6 +45,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
   }
 
+  
+  // MARK: For Facebook Integration
+
+  func application(application: UIApplication, openURL url: NSURL, sourceApplication: String?, annotation: AnyObject?) -> Bool {
+    
+    var wasHandled : Bool = FBAppCall.handleOpenURL(url, sourceApplication: sourceApplication)
+    
+    return wasHandled
+  }
+  
 
 }
 
