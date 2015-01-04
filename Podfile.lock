@@ -2,12 +2,18 @@ PODS:
   - Bolts (1.1.3)
   - Facebook-iOS-SDK (3.21.1):
     - Bolts (~> 1.0)
+  - HexColors (2.2.1)
+  - TSMessages (0.9.11):
+    - HexColors
 
 DEPENDENCIES:
   - Facebook-iOS-SDK (~> 3.21)
+  - TSMessages (~> 0.9)
 
 SPEC CHECKSUMS:
   Bolts: 3db0a875235e0c9042b013af13af0f00f79b102c
   Facebook-iOS-SDK: 18c26e86ab25c17854a2ee2a8f60562099c6600f
+  HexColors: 01384d2bbe8dc4ffa43c3b4135db6e976952d153
+  TSMessages: e21ef5b1c7518cc590a4826c8b05b16b79b10c2c
 
 COCOAPODS: 0.35.0

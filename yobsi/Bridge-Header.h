@@ -10,5 +10,6 @@
 #define yobsi_Bridge_Header_h
 
 #import <FacebookSDK/FacebookSDK.h>
+#import <TSMessages/TSMessage.h>
 
 #endif
