@@ -22,6 +22,7 @@
 		048C00831A523CAB001C1635 /* RequestSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048C00821A523CAB001C1635 /* RequestSpec.swift */; };
 		048C00851A523F17001C1635 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048C00841A523F17001C1635 /* Request.swift */; };
 		04D034631A58AA3B006DE453 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D034621A58AA3B006DE453 /* LoginViewController.swift */; };
+		04D034651A58B6AA006DE453 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D034641A58B6AA006DE453 /* User.swift */; };
 		04FAC1851A522CFA00DA4114 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAC1841A522CFA00DA4114 /* MainViewController.swift */; };
 		9BD78039B263792313DBB10F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C89D11CC088F09CB4766E96 /* libPods.a */; };
 /* End PBXBuildFile section */
@@ -125,6 +126,7 @@
 		04B503F91A5797E70081D090 /* YobsiPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = YobsiPlayground.playground; sourceTree = "<group>"; };
 		04D034571A58A83A006DE453 /* Bridge-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridge-Header.h"; sourceTree = "<group>"; };
 		04D034621A58AA3B006DE453 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		04D034641A58B6AA006DE453 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		04FAC1841A522CFA00DA4114 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		0A7D9ED8D2330E233799A421 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		3C89D11CC088F09CB4766E96 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -255,6 +257,7 @@
 			isa = PBXGroup;
 			children = (
 				048C00841A523F17001C1635 /* Request.swift */,
+				04D034641A58B6AA006DE453 /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -497,6 +500,7 @@
 			files = (
 				04FAC1851A522CFA00DA4114 /* MainViewController.swift in Sources */,
 				048C00851A523F17001C1635 /* Request.swift in Sources */,
+				04D034651A58B6AA006DE453 /* User.swift in Sources */,
 				0447F8C91A4A152500A0CC78 /* AppDelegate.swift in Sources */,
 				04D034631A58AA3B006DE453 /* LoginViewController.swift in Sources */,
 				0489B9CA1A510A8300E9CB0E /* RequestViewController.swift in Sources */,

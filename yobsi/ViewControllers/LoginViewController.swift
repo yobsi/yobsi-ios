@@ -16,7 +16,7 @@ class LoginViewController: UIViewController, FBLoginViewDelegate {
     super.viewDidLoad()
     
     self.fbLoginView.delegate = self
-    self.fbLoginView.readPermissions = ["public_profile", "email", "user_friends"]
+    self.fbLoginView.readPermissions = ["public_profile", "email"]
   }
   
   override func didReceiveMemoryWarning() {
@@ -28,11 +28,18 @@ class LoginViewController: UIViewController, FBLoginViewDelegate {
   
   func loginViewShowingLoggedInUser(loginView: FBLoginView!) {
     println("User Logged In")
-    println("This is where you perfrom a segue.")
+    println("This is where you perform a segue.")
+    
+    self.performSegueWithIdentifier("mainSegue", sender: self)
   }
   
   func loginViewFetchedUserInfo(loginView: FBLoginView!, user: FBGraphUser!) {
     println("User Name  : \(user.name)")
+    
+    println("Birthdate  : \(user.birthday)")
+    
+    let email = user.objectForKey("email") as String
+    println("email : \(email)")
   }
   
   func loginViewShowingLoggedOutUser(loginView: FBLoginView!) {
